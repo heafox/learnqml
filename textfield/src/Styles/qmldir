@@ -1,0 +1,3 @@
+module Styles
+singleton Style 1.0 Style.qml
+MyTextField 1.0 MyTextField.qml
