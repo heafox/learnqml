@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>MainItem.qml</file>
+        <file>Pages/DialPage.qml</file>
+        <file>Pages/HomePage.qml</file>
+        <file>Pages/RecordPage.qml</file>
+        <file>StatusBar.qml</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>face.jpg</file>
+        <file>icon_bohao.png</file>
+        <file>icon_mima.png</file>
+        <file>network.png</file>
+        <file>sunlight.png</file>
+    </qresource>
+</RCC>
