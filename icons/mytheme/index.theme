@@ -1,0 +1,9 @@
+[Icon Theme]
+Name=mytheme
+Comment=My Icon Theme
+
+Directories=96x96
+
+[96x96]
+Size=96
+Type=Fixed

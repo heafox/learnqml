@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/mytheme/96x96/trash.png</file>
+        <file>icons/mytheme/96x96/undo.png</file>
+        <file>icons/mytheme/96x96/up.png</file>
+        <file>icons/mytheme/96x96/upleft.png</file>
+        <file>icons/mytheme/96x96/upright.png</file>
+        <file>icons/mytheme/index.theme</file>
+    </qresource>
+</RCC>

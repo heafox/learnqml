@@ -1,9 +1,0 @@
-<RCC>
-    <qresource prefix="/">
-        <file>main.qml</file>
-        <file>qtquickcontrols2.conf</file>
-        <file>Styles/qmldir</file>
-        <file>Styles/Style.qml</file>
-        <file>Styles/MyTextField.qml</file>
-    </qresource>
-</RCC>
