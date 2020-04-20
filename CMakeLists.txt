@@ -27,7 +27,7 @@ source_group("Ui" FILES ${CURRENT_UI})
 file(GLOB_RECURSE CURRENT_RESOURCES *.qrc)
 source_group("Resources" FILES ${CURRENT_RESOURCES})
 
-find_package(Qt5 COMPONENTS Core Quick SerialPort REQUIRED)
+find_package(Qt5 COMPONENTS Core Quick SerialPort Sql REQUIRED)
 
 if(ANDROID)
     add_library(learnqml SHARED
@@ -53,6 +53,7 @@ target_link_libraries(learnqml
     Qt5::Core
     Qt5::Quick
     Qt5::SerialPort
+    Qt5::Sql
 )
 
 # QtCreator supports the following variables for Android, which are identical to qmake Android variables.

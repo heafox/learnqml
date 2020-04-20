@@ -1,6 +1,7 @@
 import QtQuick 2.12
 import QtQuick.Controls 2.5
 import QtQuick.Layouts 1.12
+import Model 1.0
 
 ApplicationWindow {
     id: window
@@ -9,30 +10,49 @@ ApplicationWindow {
     height: 480
     title: qsTr("Tabs")
 
-    Column {
-        ButtonGroup {
-            id: childGroup
-            exclusive: false
-            checkState: parentBox.checkState
+    Component.onCompleted: {
+        var list = movieModel.get();
+        for (var i = 0; i < list.length; i++) {
+            movies.append(list[i]);
+        }
+    }
+
+    MovieModel {
+        id: movieModel
+    }
+
+    ListModel {
+        id: movies
+    }
+
+    ColumnLayout {
+        anchors.fill: parent
+
+        Label {
+            Layout.preferredHeight: 40
+            text: qsTr("Movies")
         }
 
-        CheckBox {
-            id: parentBox
-            text: qsTr("Parent")
-            checkState: childGroup.checkState
-        }
+        ListView {
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+            model: movies
 
-        CheckBox {
-            checked: true
-            text: qsTr("Child 1")
-            leftPadding: indicator.width
-            ButtonGroup.group: childGroup
-        }
+            delegate: ItemDelegate {
+                contentItem: RowLayout {
+                    Label {
+                        text: title
+                    }
 
-        CheckBox {
-            text: qsTr("Child 2")
-            leftPadding: indicator.width
-            ButtonGroup.group: childGroup
+                    Label {
+                        text: director
+                    }
+
+                    Label {
+                        text: rating
+                    }
+                }
+            }
         }
     }
 }
