@@ -4,5 +4,7 @@
         <file>qtquickcontrols2.conf</file>
         <file>Login/LoginPage.qml</file>
         <file>FirstPage.qml</file>
+        <file>MovieListView.qml</file>
+        <file>diystyle.qml</file>
     </qresource>
 </RCC>

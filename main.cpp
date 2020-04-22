@@ -10,10 +10,10 @@ int main(int argc, char *argv[])
 {
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
 
+    QGuiApplication app(argc, argv);
+
     qmlRegisterType<SerialDriver>("Serial", 1, 0, "SerialDriver");
     qmlRegisterType<MovieModel>("Model", 1, 0, "MovieModel");
-
-    QGuiApplication app(argc, argv);
 
     QIcon::setThemeName("mytheme");
 
@@ -25,12 +25,18 @@ int main(int argc, char *argv[])
     }
 
     QQmlApplicationEngine engine;
-    const QUrl url(QStringLiteral("qrc:/main.qml"));
+
+    // Add the ':/' in the resource file to the QML import path.
+    engine.addImportPath(":/");
+
+    const QUrl url(QStringLiteral("qrc:/diystyle.qml"));
+
     QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,
                      &app, [url](QObject *obj, const QUrl &objUrl) {
         if (!obj && url == objUrl)
             QCoreApplication::exit(-1);
     }, Qt::QueuedConnection);
+
     engine.load(url);
 
     return app.exec();

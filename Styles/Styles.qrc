@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/Styles">
+        <file>qmldir</file>
+        <file>Style.qml</file>
+    </qresource>
+</RCC>
