@@ -64,11 +64,11 @@
 7. 滚动视图（ScrollView）
 8. 堆栈视图（StackView）
 
-## 第七章：QML高级
+## 第七章：自定义控件（Custom Controls）
 
-1. 创建自定义模块
+1. 创建自定义QML皮肤
 2. 创建自定义控件
-3. 自定义输入框（TextField）
+3. 自定义按钮（Button）
 
 ## 第八章：C++与QML数据交互
 
