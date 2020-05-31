@@ -1,9 +1,0 @@
-<RCC>
-    <qresource prefix="/">
-        <file>icon/trash.png</file>
-        <file>icon/undo.png</file>
-        <file>icon/up.png</file>
-        <file>icon/upleft.png</file>
-        <file>icon/upright.png</file>
-    </qresource>
-</RCC>

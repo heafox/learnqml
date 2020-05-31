@@ -11,6 +11,8 @@ ApplicationWindow {
     title: qsTr("Tabs")
 
     Component.onCompleted: {
+        movieModel.create();
+
         var list = movieModel.get();
         for (var i = 0; i < list.length; i++) {
             movies.append(list[i]);
