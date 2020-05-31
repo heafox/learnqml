@@ -13,5 +13,8 @@ ApplicationWindow {
         x: 10
         y: 10
         text: qsTr("Button")
+        onClicked: {
+            console.log(1234)
+        }
     }
 }
