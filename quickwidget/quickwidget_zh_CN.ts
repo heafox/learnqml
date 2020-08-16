@@ -37,4 +37,33 @@
         <translation type="unfinished"></translation>
     </message>
 </context>
+<context>
+    <name>main</name>
+    <message>
+        <location filename="../database/main.qml" line="11"/>
+        <location filename="../diystyle/main.qml" line="10"/>
+        <location filename="../icons_theme/main.qml" line="10"/>
+        <location filename="../layout/main.qml" line="10"/>
+        <location filename="../loader/main.qml" line="10"/>
+        <location filename="../serialdriver/main.qml" line="11"/>
+        <source>Tabs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../database/main.qml" line="35"/>
+        <source>Movies</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../diystyle/main.qml" line="15"/>
+        <location filename="../serialdriver/main.qml" line="20"/>
+        <source>Button</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../loader/main.qml" line="19"/>
+        <source>B2</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
 </TS>

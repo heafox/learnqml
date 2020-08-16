@@ -64,6 +64,7 @@
 6. 面板（Pane）
 7. 滚动视图（ScrollView）
 8. 堆栈视图（StackView）
+9. 列表视图（ListView）
 
 ## 第七章：自定义控件（Custom Controls）
 
