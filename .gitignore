@@ -47,6 +47,8 @@ CMakeLists.txt.user
 # Visual Studio generated files
 /.vs
 /out
+/.vscode
+/build
 *.ib_pdb_index
 *.idb
 *.ilk
