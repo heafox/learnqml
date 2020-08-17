@@ -40,6 +40,8 @@
 1. 锚（anchors）
 2. 列布局（ColumnLayout）
 3. 行布局（RowLayout）
+4. 布局附加属性详解
+5. 布局填充详解
 
 ## 第五章：按钮控件（Button Controls）
 
