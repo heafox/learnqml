@@ -1,7 +1,7 @@
 # learnqml
 
 * 课程地址：http://i.xue.taobao.com/detail.htm?courseId=113958
-* 代码地址：https://github.com/orime/learnqml
+* 代码地址：https://github.com/softmarch/learnqml
 
 ## 第一章：基础介绍
 
