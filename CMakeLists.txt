@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
+
 project(learnqml)
 
 add_subdirectory(diystyle)
@@ -8,3 +9,4 @@ add_subdirectory(database)
 add_subdirectory(quickwidget)
 add_subdirectory(loader)
 add_subdirectory(layout)
+add_subdirectory(canvas)

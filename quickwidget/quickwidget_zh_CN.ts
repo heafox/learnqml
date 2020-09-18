@@ -40,6 +40,7 @@
 <context>
     <name>main</name>
     <message>
+        <location filename="../canvas/main.qml" line="10"/>
         <location filename="../database/main.qml" line="11"/>
         <location filename="../diystyle/main.qml" line="10"/>
         <location filename="../icons_theme/main.qml" line="10"/>
