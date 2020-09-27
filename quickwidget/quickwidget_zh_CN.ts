@@ -13,26 +13,31 @@
     <name>MainWindow</name>
     <message>
         <location filename="mainwindow.ui" line="14"/>
+        <location filename="../build/quickwidget/quickwidget_autogen/include/ui_mainwindow.h" line="77"/>
         <source>MainWindow</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="42"/>
+        <location filename="../build/quickwidget/quickwidget_autogen/include/ui_mainwindow.h" line="81"/>
         <source>File</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="54"/>
+        <location filename="../build/quickwidget/quickwidget_autogen/include/ui_mainwindow.h" line="78"/>
         <source>Open...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="59"/>
+        <location filename="../build/quickwidget/quickwidget_autogen/include/ui_mainwindow.h" line="79"/>
         <source>Save...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="64"/>
+        <location filename="../build/quickwidget/quickwidget_autogen/include/ui_mainwindow.h" line="80"/>
         <source>Exit</source>
         <translation type="unfinished"></translation>
     </message>

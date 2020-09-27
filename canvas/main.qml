@@ -24,28 +24,25 @@ ApplicationWindow {
             //ctx.fillRect(10, 10, 100, 100);
 
             ctx.beginPath();
+            
             ctx.moveTo(100, 100);
-            ctx.lineTo(200, 200);
-            ctx.arc(200, 200, 30, 0, 3.1415926, true);
-            ctx.stroke();
+            ctx.lineTo(200, 100);
 
-            var lastX = width * Math.random();
-            var lastY = height * Math.random();
-            var hue = 0;
+            ctx.moveTo(200 + 60, 100);
+            ctx.arc(200 + 30, 100, 30, 0, 3.1415926, true);
+            
+            ctx.stroke();
 
             ctx.save();
             ctx.beginPath();
             ctx.lineWidth = 5 + Math.random() * 10;
+            var lastX = width * Math.random();
+            var lastY = height * Math.random();
             ctx.moveTo(lastX, lastY);
             lastX = width * Math.random();
             lastY = height * Math.random();
-            ctx.bezierCurveTo(width * Math.random(),
-                              height * Math.random(),
-                              width * Math.random(),
-                              height * Math.random(),
-                              lastX, lastY);
-
-            hue = hue + 10 * Math.random();
+            ctx.bezierCurveTo(width * Math.random(), height * Math.random(), width * Math.random(), height * Math.random(), lastX, lastY);
+            var hue = hue + 10 * Math.random();
             ctx.strokeStyle = 'hsl(' + hue + ', 50%, 50%)';
             ctx.shadowColor = 'white';
             ctx.shadowBlur = 10;
