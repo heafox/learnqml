@@ -43,6 +43,29 @@
     </message>
 </context>
 <context>
+    <name>TitleBar</name>
+    <message>
+        <location filename="../pagemanager/TitleBar.qml" line="51"/>
+        <source>Configure</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pagemanager/TitleBar.qml" line="92"/>
+        <source>Page1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pagemanager/TitleBar.qml" line="102"/>
+        <source>Page2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pagemanager/TitleBar.qml" line="112"/>
+        <source>Page3</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>main</name>
     <message>
         <location filename="../canvas/main.qml" line="10"/>
@@ -51,6 +74,7 @@
         <location filename="../icons_theme/main.qml" line="10"/>
         <location filename="../layout/main.qml" line="10"/>
         <location filename="../loader/main.qml" line="10"/>
+        <location filename="../pagemanager/main.qml" line="10"/>
         <location filename="../serialdriver/main.qml" line="11"/>
         <source>Tabs</source>
         <translation type="unfinished"></translation>
@@ -69,6 +93,21 @@
     <message>
         <location filename="../loader/main.qml" line="19"/>
         <source>B2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pagemanager/main.qml" line="31"/>
+        <source>Page1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pagemanager/main.qml" line="41"/>
+        <source>Page2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pagemanager/main.qml" line="51"/>
+        <source>Page3</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
