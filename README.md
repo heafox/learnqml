@@ -89,6 +89,7 @@
 
 1. 在QML中使用串口
 2. Weights嵌入QML界面（QQuickWidgets）
+3. 多页面管理（Page Manager）
 
 ## 第十一章：数据库
 
