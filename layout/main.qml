@@ -17,13 +17,13 @@ ApplicationWindow {
         Rectangle {
             Layout.preferredWidth: 50
             Layout.preferredHeight: 50
-            color: "green"
+            color: "yellowgreen"
         }
 
         Rectangle {
             Layout.preferredWidth: 50
             Layout.preferredHeight: 50
-            color: "red"
+            color: "chocolate"
 
             Rectangle {
                 width: 10
@@ -44,21 +44,58 @@ ApplicationWindow {
             Layout.fillWidth: true
             Layout.preferredWidth: 10
             Layout.preferredHeight: 50
-            color: "green"
+            color: "yellowgreen"
         }
 
         Rectangle {
             Layout.fillWidth: true
             Layout.preferredWidth: 90
             Layout.preferredHeight: 50
-            color: "red"
+            color: "chocolate"
         }
 
         Rectangle {
             Layout.fillWidth: true
             Layout.preferredWidth: 90
             Layout.preferredHeight: 50
-            color: "blue"
+            color: "cadetblue"
         }
     }
+
+    GridLayout {
+        id: grid
+        x: 0
+        y: 110
+        columns: 3
+        //rows: 2
+        //flow: GridLayout.TopToBottom
+        //layoutDirection: Qt.RightToLeft
+        columnSpacing: 5
+        rowSpacing: 5
+
+        Text {
+            text: "Three"
+            font.bold: true
+            font.pixelSize: 26
+        }
+        Text {
+            text: "words"
+            color: "red"
+        }
+        Text {
+            text: "in"
+            font.underline: true
+        }
+        Text {
+            text: "a"
+            font.pixelSize: 20
+            Layout.preferredWidth: 50
+            //horizontalAlignment: Text.AlignRight
+        }
+        Text {
+            text: "row"
+            font.strikeout: true
+        }
+    }
+
 }
