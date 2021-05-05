@@ -57,4 +57,4 @@ target_link_libraries(quickwidget PRIVATE
     Qt5::QuickWidgets
 )
 
-qt5_create_translation(QM_FILES ${CMAKE_SOURCE_DIR} ${TS_FILES})
+#qt5_create_translation(QM_FILES ${CMAKE_SOURCE_DIR} ${TS_FILES})
