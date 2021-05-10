@@ -66,9 +66,11 @@ ApplicationWindow {
         id: grid
         x: 0
         y: 110
-        columns: 3
-        //rows: 2
-        //flow: GridLayout.TopToBottom
+        width: parent.width
+        height: parent.height - 110
+        //columns: 3
+        rows: 2
+        flow: GridLayout.TopToBottom
         //layoutDirection: Qt.RightToLeft
         columnSpacing: 5
         rowSpacing: 5
@@ -76,25 +78,44 @@ ApplicationWindow {
         Text {
             text: "Three"
             font.bold: true
-            font.pixelSize: 26
+            font.pixelSize: 13
+            Layout.fillWidth: true
+            horizontalAlignment: Text.AlignHCenter
+            Layout.preferredWidth: 90
         }
+
         Text {
             text: "words"
             color: "red"
+            Layout.fillWidth: true
+            horizontalAlignment: Text.AlignHCenter
+            Layout.preferredWidth: 90
         }
+
         Text {
             text: "in"
             font.underline: true
+            Layout.fillWidth: true
+            horizontalAlignment: Text.AlignHCenter
+            Layout.preferredWidth: 90
         }
+
         Text {
             text: "a"
             font.pixelSize: 20
-            Layout.preferredWidth: 50
+            Layout.fillWidth: true
+            horizontalAlignment: Text.AlignHCenter
+            Layout.preferredWidth: 90
+            //Layout.preferredWidth: 50
             //horizontalAlignment: Text.AlignRight
         }
+
         Text {
             text: "row"
             font.strikeout: true
+            Layout.fillWidth: true
+            horizontalAlignment: Text.AlignHCenter
+            Layout.preferredWidth: 90
         }
     }
 
