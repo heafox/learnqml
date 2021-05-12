@@ -27,8 +27,8 @@
 
 ## 第三章：基础控件
 
-1. 矩形框（Rectangle）（免费）
-2. 标签（Label）（免费）
+1. 矩形框（Rectangle）
+2. 标签（Label）
 3. 输入框（TextField）
 4. 下拉框（ComboBox）
 5. 对话框（Dialog）
@@ -40,8 +40,9 @@
 1. 锚（anchors）
 2. 列布局（ColumnLayout）
 3. 行布局（RowLayout）
-4. 布局附加属性详解
-5. 布局填充详解
+4. 栅格布局（GridLayout）
+5. 布局附加属性详解
+6. 布局填充详解
 
 ## 第五章：按钮控件（Button Controls）
 
@@ -110,11 +111,4 @@
 
 1. 创建项目
 2. 给按钮加上图标
-3. 添加状态栏
-4. 优化界面布局
-5. 多页面切换
-6. ListView列表显示
-7. Label输入、删除、密码显示
-8. QML多文件分目录管理
-9. QML混合编程 ListView显示C++中的数据
-10. 使用QAbstractListModel数据显示
+3. 多页面切换
